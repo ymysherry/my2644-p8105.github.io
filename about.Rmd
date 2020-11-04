@@ -6,6 +6,105 @@ output:
     toc_float: true
 ---
 
-# This page contains information about me
+# Profile
 
 As a second year student at the Columbia University Mailman School of Public Health, I will be graduating in May, 2021 with a Master of Public Health in Biostatistics and a focus on Comparative Effectiveness and Outcome Research (CEOR). My practicum and previous internship experience at Daiichi Sankyo, Pfizer and Astra Zeneca deepened my interest in a career in the healthcare industry.
+
+# My resume {.tabset}
+
+## Education
+-Columbia University, Mailman School of Public Health, New York, NY
+
+Expected May 2021
+
+   Master of Public Health in Biostatistics
+   
+• Certificate in Comparative Effectiveness and Outcomes Research
+
+• Relevant coursework: Statistical Computing with SAS, Data Science, Probability, Regression Analysis, Analysis of Large-Scale
+Data, Health Economics
+
+-University of California, Los Angeles, CA 
+
+Jun. 2019
+
+Bachelor of Science in Environmental Science
+
+• Minor in Civil and Environmental Engineering
+
+• Relevant coursework: General and Organic Chemistry & Lab, Physics, Biology, Remote Sensing, Atmospheric & Oceanic Science, Geography
+
+## Work Experience
+1. Daiichi Sankyo Inc. --  Basking Ridge, NJ
+
+Jun. 2020 - Aug. 2020 
+
+Health Economics & Outcome Research Intern 
+
+• Identified ICD-10 codes required for the calculation of the NCI Comorbidity Index for adverse events of treatment received by
+breast cancer patients to support AMCP poster
+
+• Modified a SAS macro to accommodate the ICD-10 codes to support the SEER analysis
+
+• Conducted literature review on the disease characteristics, epidemiology, and treatment guidelines of metastatic colorectal cancer
+and presented the slide deck to the US-HEOR team
+
+• Developed a protocol concept for a treatment pattern analysis for metastatic colorectal cancer
+
+2. Pfizer --   Shanghai, China
+
+Jul. 2018 - Sept. 2018 
+
+Pharmacovigilance Intern 
+
+• Reviewed QC reports and EHS evaluations to support pharmacovigilance and risk management across all Pfizer’s Business Units
+
+• Used Excel to compile global safety surveillance evaluation for weekly presentations
+
+• Examined and delivered literature reviews to Risk Management Associates for internal quarterly reports
+
+3. AstraZeneca --  Shanghai, China
+
+Jul. 2017 - Sep. 2017 
+
+Medical Information Intern
+
+• Gathered and analyzed 30 research papers on a weekly basis from Pubmed and Embase to revise Safety Data Sheet
+
+• Uploaded research papers and clinical guidelines to Veeva Vault System to support daily work of sales representatives
+
+• Reviewed and compiled academic journals for delivery to healthcare providers (HCPs)
+
+• Used Excel to collect marketing data of competitor’s social media platforms for strategic analysis
+
+## Skills
+• Software: SAS, R, Github, STATA, ENVI, ArcGIS, Veeva Vault, Microsoft Word/PowerPoint/Excel, Adobe Photoshop/Indesign
+
+• Lab: Mass Spectroscopy, Centrifuge, Chromatography
+
+## Research
+1. UCLA : Sept. 2018 - Jun. 2019 
+
+Senior Practicum Project for the ADEPT Group 
+
+Los Angeles, CA
+
+• Used ArcGIS to construct emission maps at communities around Port of LA and Port of Long Beach as modeling outputs
+
+• Presented client’s Aerial Sniffer System for emissions regulation to authorities at Air Quality Management Districts
+
+• Received $275,000 from Bay Area Air Quality Management District for the demonstration project and proposed test
+
+• Completed an application to the Technology Advancement Program as part of the San Pedro Bay Ports’ Clean Air Action Plan 
+
+2. Undergraduate Research Assistant: Oct. 2017 - Jun. 2018 
+
+Professor Sanjay Mohanty’s Lab 
+
+Los Angeles, CA
+
+• Analyzed the concentration of nitrate in stormwater samples using chromatography and centrifuge
+
+• Collected soil sample samples and analyzed which area in the city of LA had the highest amount of pollutants
+
+• Measured micro-plastic concentration in water samples and identified particles using microscope and spectroscopy
