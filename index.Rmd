@@ -1,0 +1,16 @@
+  ---
+title: "Sherry Yan's P8105 website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Welcome to my personal website for P8105!
+
+![](https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/123597485_527200321572351_7129836085619689458_n.jpg?_nc_cat=1&ccb=2&_nc_sid=825194&_nc_ohc=h9oKYOwGQg8AX9c7TCT&_nc_ht=scontent-lga3-1.xx&oh=550b65e9710fa0cad74889930820607f&oe=5FC982FA)
+##Links to my Linkedin page, email and Github account:
+* [Linkedin](https://www.linkedin.com/in/sherry-yan-a1a287107/) 
+* [Email](my2644@cumc.columbia.edu)
+* [Github](https://github.com/ymysherry)
