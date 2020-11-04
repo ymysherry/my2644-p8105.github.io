@@ -1,0 +1,11 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This page contains information about me
+
+As a second year student at the Columbia University Mailman School of Public Health, I will be graduating in May, 2021 with a Master of Public Health in Biostatistics and a focus on Comparative Effectiveness and Outcome Research (CEOR). My practicum and previous internship experience at Daiichi Sankyo, Pfizer and Astra Zeneca deepened my interest in a career in the healthcare industry.
