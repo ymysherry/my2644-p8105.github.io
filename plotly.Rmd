@@ -1,0 +1,48 @@
+---
+title: "Plotly" 
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# 3 examples of plotly
+ 
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+# bar chart
+
+Number of items ordered in each aisle >20000
+```{r}
+data("instacart") 
+
+instacart_1 = instacart %>% 
+count(aisle) %>% 
+  arrange(desc(n)) %>% 
+  filter(n > 20000) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis") 
+ 
+```
+# boxplot
+
+The mean hour of the day at which top 3 most frequently ordered products are ordered 
+```{r}
+data("instacart") 
+
+instacart_2 = instacart %>% 
+
+filter(product_name %in% c("Banana", "Bag of Organic Bananas", "Organic Strawberries")) %>%
+  group_by(product_name, order_dow) %>%
+  summarize(mean_hour = mean(order_hour_of_day)) %>% 
+  arrange(product_name, order_dow, mean_hour) %>% 
+  mutate(product_name = fct_reorder(product_name, mean_hour)) %>%   
+  plot_ly(y = ~mean_hour, color = ~product_name, type = "box", colors = "viridis")
+
+```
+
