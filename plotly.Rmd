@@ -1,23 +1,48 @@
 ---
-title: "Plotly" 
+title: "Dashboard of instacart dataset"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-# 3 examples of plotly
- 
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+```
 ```{r}
 library(tidyverse)
 library(p8105.datasets)
 
 library(plotly)
 ```
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-# bar chart
+### Scatterplot
+## Distribution of departments by aisles for less than 4 days since prior order
 
-Number of items ordered in each aisle >20000
+```{r}
+data("instacart") 
+
+instacart_3 = instacart %>% 
+  
+ filter(days_since_prior_order < 4,
+        department %in% c("bakery", "snacks", "canned goods")) %>% 
+ arrange(aisle, department) %>%
+  
+  
+plot_ly(
+    x = ~department, y = ~aisle, type = "scatter", mode = "markers",
+    color = ~days_since_prior_order,  alpha = 0.5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Bar chart
+
+## Number of items ordered in each aisle >20000
 ```{r}
 data("instacart") 
 
@@ -29,9 +54,13 @@ count(aisle) %>%
   plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis") 
  
 ```
-# boxplot
 
-The mean hour of the day at which top 3 most frequently ordered products are ordered 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Boxplot
+
+## The mean hour of the day at which top 3 most frequently ordered products are ordered 
 ```{r}
 data("instacart") 
 
